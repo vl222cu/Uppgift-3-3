@@ -1,1 +1,60 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container
+{
+    width: 598px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    border: 1px solid black;
+}
+
+#topbar
+{
+    font-family: "Verdana", "Times New Roman", "sans-serif";
+    font-size: 10px;
+    text-align: right;
+    margin: 5px;
+}
+
+
+
+#content
+{
+    width: 576px;
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#maincontent
+{
+    float: left;
+    width: 350px;
+    padding: 5px;
+}
+
+#subcontent
+{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    border-left: dotted;
+}
+
+#bottomcontent
+{
+    font-family: "Verdana", "Times New Roman", "sans-serif";
+    font-size: 10px;
+    clear: both;
+}
+
+body 
+{
+    font-family: "Verdana", "Times New Roman", "sans-serif";
+    font-size: 12px;
+}
+
+h1
+{
+    font-family: "Times New Roman", "Verdana", "sans-serif";
+    font-size: 24px;
+}
