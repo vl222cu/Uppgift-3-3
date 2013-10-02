@@ -2,13 +2,13 @@
 #container
 {
     width: 598px;
+    height: 247px;
     margin: 0 auto;
-    border: 1px solid black;
-    height: 200px;
     background-image: url(pics/coffey.jpg);
     background-repeat: no-repeat;
-    background-size: 598px 150px;
-    background-position: center center;
+    background-size: 598px 208px;
+    background-position: top center;
+    background-color: #574C3C;
     
 }
 
@@ -17,15 +17,19 @@
     font-family: "Verdana", "Times New Roman", "sans-serif";
     font-size: 10px;
     text-align: right;
-    margin: 5px;
+    padding: 5px;
+    margin: 0;
+    background: #574C3C;
 }
 
 #content
 {
     width: 576px;
     float: left;
+    margin: -2px 0 0 0;
     padding: 10px;
-    border: 1px solid black;
+    background: #E3E0C2;
+    border: 1px solid #A8A690;
 }
 
 #maincontent
@@ -54,10 +58,15 @@
 {
     float: left; 
     padding-left: 0; 
-    padding-top: 140px;
+    padding-top: 180px;
     margin-left: -25px;
     list-style-type: none;
     width: 100%;
+}
+
+#menu a
+{
+    display: none;
 }
 
 #menu li
@@ -65,38 +74,21 @@
     display: inline;
 }
 
-#menu a
-{
-    display: none;
-    /*padding: 12px 20px 12px 20px; 
-    margin: -4px;
-    text-decoration: none;
-    border: 1px solid black;*/
-}
-
 #menu li a
 {
-    display: inline;
-    padding: 12px 20px 12px 20px; 
-    margin: -4px;
+    display: block;
+    float: left;
+    padding: 10px 23px 12px 23px; 
+    margin: -2px;
     text-decoration: none;
-    border: 1px solid black;
-}
-#menu a:link
-{
-    color: #ffffff; 
-    background: #CC9999;
-}
-
-#menu a:visited
-{
-    color: #ffffff; 
-    background: #CC9999;
+    color: #E3E0C2; 
+    background: #7F796E;
+    border: 1px solid #574C3C;
 }
 
 #menu a:hover
 {
-    background: #996666;
+    background: #9E937D;
 }
 
 .active 
